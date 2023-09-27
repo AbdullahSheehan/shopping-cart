@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="assets/shopping-cart.jpg"
+			type="image/x-icon" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"></script>
+		<title>Shopping Cart</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar bg-success navbar-dark">
+				<p class="navbar-brand fw-bold text-center w-100">
+					Shopping Cart
+				</p>
+			</nav>
+		</header>
+		<section
+			class="mt-5 d-flex justify-content-center align-items-center mb-5">
+			<div class="card-group w-75">
+				<h3 class="d-block w-100 mb-4">Products</h3>
+				<div class="card">
+					<img
+						src="assets/product.jpg"
+						class="card-img-top"
+						alt="..." />
+					<div class="card-body">
+						<h5 class="bg-white mb-3 text-center">Product A</h5>
+						<div class="d-flex flex-column">
+							<h6
+								class="card-subtitle mb-2 text-body-secondary text-center mb-5">
+								Price: <span>100</span>/=
+							</h6>
+							<button class="btn btn-success addtoCart">
+								Add to Cart +
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img
+						src="assets/product.jpg"
+						class="card-img-top"
+						alt="..." />
+					<div class="card-body">
+						<h5 class="bg-white mb-3 text-center">Product B</h5>
+						<div class="d-flex flex-column">
+							<h6
+								class="card-subtitle mb-2 text-body-secondary text-center mb-5">
+								Price: <span>200</span>/=
+							</h6>
+							<button class="btn btn-success addtoCart">
+								Add to Cart +
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img
+						src="assets/product.jpg"
+						class="card-img-top"
+						alt="..." />
+					<div class="card-body">
+						<h5 class="bg-white mb-3 text-center">Product C</h5>
+						<div class="d-flex flex-column">
+							<h6
+								class="card-subtitle mb-2 text-body-secondary text-center mb-5">
+								Price: <span>300</span>/=
+							</h6>
+							<button id="" class="btn btn-success addtoCart">
+								Add to Cart +
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img
+						src="assets/product.jpg"
+						class="card-img-top"
+						alt="..." />
+					<div class="card-body">
+						<h5 class="bg-white mb-3 text-center">Product D</h5>
+						<div class="d-flex flex-column">
+							<h6
+								class="card-subtitle mb-2 text-body-secondary text-center mb-5">
+								Price: <span>400</span>/=
+							</h6>
+							<button id="" class="btn btn-success addtoCart">
+								Add to Cart +
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			class="mt-5 d-flex justify-content-center align-items-center mb-5">
+			<ul class="cartList list-group w-75">
+				<h3 class="mb-3">Your Cart</h3>
+				<li
+					class="cartEmpty list-group-item d-flex justify-content-between align-items-center">
+					Your Cart is empty.
+				</li>
+                
+			</ul>
+		</section>
+		<footer>
+			<div class="bg-secondary p-3 w-100 text-center">
+				Shopping Cart &copy;
+			</div>
+		</footer>
+		<!-- JS -->
+		<script src="js/cart.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
